@@ -1,14 +1,10 @@
-a = 5
+"""This is test python program
+Written by AI Sweigart al@inventwithpython.com
 
-x = int(input('how many candies you want?'))
+This program was designed for python 3, not python 2.
+"""
 
-i = 1
-while i <= x:
-    if i>a:
-       print('out of stock')
-       break
-
-    print('candy')
-    i+=1
-
-print('bye')
+def spam():
+    """This is a multiline comment to help
+    explain what the spam ()function does"""
+    print('Hello!')
