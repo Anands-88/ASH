@@ -17,7 +17,7 @@ for i in range (9):
     print('Turn for '+ turn + '.Move on which space?')
     move = input()
     theBoard[move] = turn
-    if turn == 'O':
+    if turn == 'X':
         turn = 'O'
     else:
         turn = 'X'

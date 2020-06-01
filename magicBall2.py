@@ -10,4 +10,4 @@ messages = ['It is certain',
     'Outlok not so good',
     'Very doubtful']
 
-print(messages[random.randint(0,len(messages)-1)])
+print(messages[random.randint(0,len(messages)+ 1)])
