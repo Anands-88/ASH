@@ -8,7 +8,7 @@ losses = 0
 ties = 0
 
 while True: # The main game loop.
-    print('%s wins, %s losses, %s ties' %(wins, losses, ties))
+    print('wins, losses, ties' .format(wins, losses, ties))
     while True:# the player input loop.
         print('enter your move:(r)ock (p)aper (s)cissors or (q)uit')
         playerMove = input()
